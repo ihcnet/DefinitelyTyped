@@ -25,6 +25,7 @@ declare namespace QueryString {
         format?: 'RFC1738' | 'RFC3986';
         encodeValuesOnly?: boolean;
         addQueryPrefix?: boolean;
+        allowDots?: boolean;
     }
 
     interface IParseOptions {
